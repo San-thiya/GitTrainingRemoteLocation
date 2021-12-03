@@ -1,0 +1,17 @@
+cd santhiya
+git init
+touch file1.txt
+touch file2.txt
+git status
+git add file1.txt
+git add file2.txt
+git status
+git config --global user.email"san@gmail.com"
+git config --global user.name"santhiya"
+git commit -m "message"
+git commit
+git push -u origin master
+git pull <remote>
+git pull --no-commit <remote>
+git pull --rebase <remote>
+git pull --verbose
